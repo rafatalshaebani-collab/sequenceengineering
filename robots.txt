@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sequenceengineering.com.au//sitemap.xml
