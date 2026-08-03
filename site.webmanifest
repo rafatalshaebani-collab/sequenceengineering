@@ -1,20 +1,37 @@
 {
   "name": "Sequence Engineering Australia",
   "short_name": "Sequence Engineering",
+  "description": "Senior engineering consultancy for renewable energy, BESS, grid connection and mission-critical data centres.",
   "start_url": "/",
+  "scope": "/",
+  "id": "/",
   "display": "standalone",
-  "background_color": "#0e0e11",
   "theme_color": "#0e0e11",
+  "background_color": "#f4f3f2",
   "icons": [
     {
-      "src": "/images/icon-192.png",
+      "src": "/web-app-manifest-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "/images/icon-512.png",
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }

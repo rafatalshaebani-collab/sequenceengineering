@@ -1,0 +1,11 @@
+/* TEAM */
+Company: Sequence Engineering Pty Ltd
+ABN: 98 694 041 864
+Location: 470 St Kilda Road, Melbourne, VIC 3004, Australia
+Contact: info@sequenceengineering.com.au
+
+/* SITE */
+Last update: 2026/08/03
+Standards: HTML5, CSS3, WCAG 2.1 AA
+Components: Static HTML, hosted on Cloudflare Pages
+Software: Hand-authored HTML/CSS/JS
