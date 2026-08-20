@@ -1,60 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url>
-    <loc>https://sequenceengineering.com.au/</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://sequenceengineering.com.au/about.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://sequenceengineering.com.au/services.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://sequenceengineering.com.au/renewable-energy.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://sequenceengineering.com.au/data-centres.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://sequenceengineering.com.au/contact.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://sequenceengineering.com.au/privacy-policy.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
-  <url>
-    <loc>https://sequenceengineering.com.au/terms.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
+  <url><loc>https://sequenceengineering.com.au/</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://sequenceengineering.com.au/about</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://sequenceengineering.com.au/services</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://sequenceengineering.com.au/renewable-energy</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://sequenceengineering.com.au/data-centres</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://sequenceengineering.com.au/projects</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://sequenceengineering.com.au/contact</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://sequenceengineering.com.au/privacy-policy</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://sequenceengineering.com.au/terms</loc><lastmod>2026-08-21</lastmod></url>
 </urlset>
