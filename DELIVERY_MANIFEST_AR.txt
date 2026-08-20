@@ -1,0 +1,13 @@
+نسخة التسليم: Sequence Engineering — بدون قسم Projects
+
+الأرشيف: sequenceengineering-fixed-no-projects.zip
+SHA-256: سيُرفق مع الأرشيف في ملف خارجي لأن إدخاله داخل الأرشيف يغيّر قيمته.
+
+التحقق:
+- HTML metadata وcanonical: PASS
+- JSON-LD: PASS
+- sitemap.xml: 8 URLs، بدون Projects: PASS
+- redirects: روابط الصفحات القديمة موجودة، بدون redirect لـProjects: PASS
+- JavaScript syntax: PASS
+- projects.html: غير موجود في النسخة النهائية
+- روابط Projects في الصفحات وJSON-LD: غير موجودة
