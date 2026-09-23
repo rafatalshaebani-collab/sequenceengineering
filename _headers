@@ -34,3 +34,6 @@
 
 /robots.txt
   Cache-Control: public, max-age=3600
+
+/data-centres
+  X-Robots-Tag: noindex, nofollow
