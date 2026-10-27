@@ -3,6 +3,7 @@ name: SEO AEO GEO audit
 on:
   workflow_dispatch:
   schedule:
+    # GitHub cron has no native biweekly interval; the guard below runs on even ISO weeks.
     - cron: '30 22 * * 0'
 
 permissions:
@@ -12,6 +13,15 @@ jobs:
   audit:
     runs-on: ubuntu-latest
     steps:
+      - name: Check biweekly schedule
+        if: github.event_name == 'schedule'
+        run: |
+          WEEK=$(date -u +%V)
+          if [ $((10#$WEEK % 2)) -ne 0 ]; then
+            echo "Skipping odd ISO week $WEEK; audit runs every two weeks."
+            exit 0
+          fi
+          echo "Running biweekly audit for even ISO week $WEEK."
       - uses: actions/checkout@v4
       - name: Run site audit
         run: python3 scripts/seo_audit.py
