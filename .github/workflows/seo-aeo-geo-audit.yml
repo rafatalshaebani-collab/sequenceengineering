@@ -1,0 +1,29 @@
+name: SEO AEO GEO audit
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 22 * * 0'
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run site audit
+        run: python3 scripts/seo_audit.py
+      - name: Upload audit reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: sequence-seo-aeo-geo-audit
+          path: reports/
+      - name: Commit latest report
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/seo-audit-latest.md reports/seo-audit-latest.json
+          git diff --cached --quiet || git commit -m 'Update SEO AEO GEO audit report'
+          git push

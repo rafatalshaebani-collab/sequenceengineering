@@ -1,0 +1,276 @@
+[
+  {
+    "file": "about.html",
+    "url": "https://sequenceengineering.com.au/about",
+    "title": "About Sequence Engineering | Senior Engineering Consultancy",
+    "description": "Learn about Sequence Engineering, our mission, values, senior delivery model and Australian engineering experience across renewable energy and critical infrastructure.",
+    "h1": [
+      "About Sequence Engineering."
+    ],
+    "h2_count": 2,
+    "schema_blocks": 5,
+    "images": 2,
+    "internal_links": 17,
+    "issues": [],
+    "notes": []
+  },
+  {
+    "file": "contact.html",
+    "url": "https://sequenceengineering.com.au/contact",
+    "title": "Contact Sequence Engineering Australia | Melbourne Engineering Consultancy",
+    "description": "Contact Sequence Engineering Australia for renewable energy, BESS, data centre, grid connection and critical infrastructure project enquiries.",
+    "h1": [
+      "Contact Sequence Engineering"
+    ],
+    "h2_count": 2,
+    "schema_blocks": 5,
+    "images": 2,
+    "internal_links": 17,
+    "issues": [
+      "Title length 74 (target 30-65)"
+    ],
+    "notes": []
+  },
+  {
+    "file": "data-centres.html",
+    "url": "https://sequenceengineering.com.au/data-centres",
+    "title": "Data Centre Engineering Australia | Mission-Critical Infrastructure",
+    "description": "Dedicated data centre engineering page covering critical infrastructure, UPS, standby power, electrical distribution, reliability, commissioning and interface management.",
+    "h1": [
+      "Data centre engineering for mission-critical electrical infrastructure."
+    ],
+    "h2_count": 5,
+    "schema_blocks": 6,
+    "images": 2,
+    "internal_links": 19,
+    "issues": [
+      "Title length 67 (target 30-65)"
+    ],
+    "notes": []
+  },
+  {
+    "file": "google2ebe9de10628a8ae.html",
+    "url": "https://sequenceengineering.com.au/google2ebe9de10628a8ae",
+    "title": "",
+    "description": "",
+    "h1": [],
+    "h2_count": 0,
+    "schema_blocks": 0,
+    "images": 0,
+    "internal_links": 0,
+    "issues": [
+      "Missing title",
+      "Missing meta description",
+      "Expected 1 H1, found 0",
+      "Missing canonical",
+      "Incomplete Open Graph metadata",
+      "No JSON-LD structured data found"
+    ],
+    "notes": [
+      "Add more relevant internal links"
+    ]
+  },
+  {
+    "file": "index.html",
+    "url": "https://sequenceengineering.com.au/",
+    "title": "Sequence Engineering | Renewable Energy Advisory, Development & Delivery Support",
+    "description": "Sequence Engineering supports solar, BESS, and hybrid renewable energy projects from project inception and development through construction, commissioning, operations, and commercial optimisation.",
+    "h1": [
+      "Technical and commercial support across the full renewable energy projects",
+      "lifecycle."
+    ],
+    "h2_count": 10,
+    "schema_blocks": 5,
+    "images": 2,
+    "internal_links": 19,
+    "issues": [
+      "Title length 80 (target 30-65)",
+      "Description length 196 (target 120-170)",
+      "Expected 1 H1, found 2"
+    ],
+    "notes": []
+  },
+  {
+    "file": "insights/bess-design-review-before-fid.html",
+    "url": "https://sequenceengineering.com.au/insights/bess-design-review-before-fid",
+    "title": "BESS Design Review: What Owners Should Challenge Before FID | Sequence Engineering Australia",
+    "description": "The design assumptions worth challenging on a BESS project before financial investment decision, from an owner's technical perspective.",
+    "h1": [
+      "BESS Design Review: What Owners Should Challenge Before FID"
+    ],
+    "h2_count": 4,
+    "schema_blocks": 5,
+    "images": 2,
+    "internal_links": 21,
+    "issues": [
+      "Title length 92 (target 30-65)"
+    ],
+    "notes": []
+  },
+  {
+    "file": "insights/bess-procurement-technical-risks.html",
+    "url": "https://sequenceengineering.com.au/insights/bess-procurement-technical-risks",
+    "title": "5 Technical Risks to Identify Before BESS Procurement | Sequence Engineering Australia",
+    "description": "Five technical risk areas worth resolving before a BESS project goes to procurement, from thermal design to protection coordination.",
+    "h1": [
+      "5 Technical Risks to Identify Before BESS Procurement"
+    ],
+    "h2_count": 5,
+    "schema_blocks": 5,
+    "images": 2,
+    "internal_links": 21,
+    "issues": [
+      "Title length 86 (target 30-65)"
+    ],
+    "notes": []
+  },
+  {
+    "file": "insights/commissioning-ready-renewable-projects.html",
+    "url": "https://sequenceengineering.com.au/insights/commissioning-ready-renewable-projects",
+    "title": "What Makes a Renewable Energy Project Commissioning-Ready? | Sequence Engineering Australia",
+    "description": "The practical markers of commissioning readiness on a renewable energy project, and why they need to be planned for well before energisation.",
+    "h1": [
+      "What Makes a Renewable Energy Project Commissioning-Ready?"
+    ],
+    "h2_count": 4,
+    "schema_blocks": 5,
+    "images": 2,
+    "internal_links": 21,
+    "issues": [
+      "Title length 91 (target 30-65)"
+    ],
+    "notes": []
+  },
+  {
+    "file": "insights/grid-connection-where-projects-lose-time.html",
+    "url": "https://sequenceengineering.com.au/insights/grid-connection-where-projects-lose-time",
+    "title": "Grid Connection: Where Renewable Projects Commonly Lose Time | Sequence Engineering Australia",
+    "description": "The stages of the grid connection process where renewable energy projects most commonly lose time, and how to reduce that risk.",
+    "h1": [
+      "Grid Connection: Where Renewable Projects Commonly Lose Time"
+    ],
+    "h2_count": 4,
+    "schema_blocks": 5,
+    "images": 2,
+    "internal_links": 21,
+    "issues": [
+      "Title length 93 (target 30-65)"
+    ],
+    "notes": []
+  },
+  {
+    "file": "insights/handover-readiness-review-90-day-plan.html",
+    "url": "https://sequenceengineering.com.au/insights/handover-readiness-review-90-day-plan",
+    "title": "Handover Readiness Review: A 90-Day Plan for Renewable Energy Assets | Sequence Engineering Australia",
+    "description": "A practical three-week handover readiness review and 90-day plan for turning EPC documents, defects, warranties, alarms and maintenance data into operating control.",
+    "h1": [
+      "Handover Readiness Review: A 90-Day Plan for Renewable Energy Assets"
+    ],
+    "h2_count": 6,
+    "schema_blocks": 5,
+    "images": 2,
+    "internal_links": 22,
+    "issues": [
+      "Title length 101 (target 30-65)"
+    ],
+    "notes": []
+  },
+  {
+    "file": "insights/owner-side-handover-control.html",
+    "url": "https://sequenceengineering.com.au/insights/owner-side-handover-control",
+    "title": "Owner-Side Handover Control: Protecting EPC Rights, Revenue and Compliance | Sequence Engineering Australia",
+    "description": "How renewable energy owners can turn an EPC handover into an operating control system, protecting defects rights, warranties, availability, compliance and revenue.",
+    "h1": [
+      "Owner-Side Handover Control: Protecting EPC Rights, Revenue and Compliance"
+    ],
+    "h2_count": 5,
+    "schema_blocks": 5,
+    "images": 2,
+    "internal_links": 22,
+    "issues": [
+      "Title length 107 (target 30-65)"
+    ],
+    "notes": []
+  },
+  {
+    "file": "insights.html",
+    "url": "https://sequenceengineering.com.au/insights",
+    "title": "Sequence Insights | Sequence Engineering Australia",
+    "description": "Technical articles from Sequence Engineering on renewable energy handover, owner-side control, BESS procurement, grid connection and commissioning.",
+    "h1": [
+      "Sequence Insights."
+    ],
+    "h2_count": 1,
+    "schema_blocks": 5,
+    "images": 2,
+    "internal_links": 23,
+    "issues": [],
+    "notes": []
+  },
+  {
+    "file": "privacy-policy.html",
+    "url": "https://sequenceengineering.com.au/privacy-policy",
+    "title": "Privacy Policy | Sequence Engineering Australia",
+    "description": "Read the Sequence Engineering Australia privacy policy covering what information we collect, how it is used, and your rights.",
+    "h1": [
+      "Privacy Policy"
+    ],
+    "h2_count": 8,
+    "schema_blocks": 1,
+    "images": 0,
+    "internal_links": 2,
+    "issues": [],
+    "notes": []
+  },
+  {
+    "file": "renewable-energy.html",
+    "url": "https://sequenceengineering.com.au/renewable-energy",
+    "title": "Renewable Energy Engineering Australia | Solar, BESS & Grid Connection",
+    "description": "Dedicated renewable energy engineering page for solar, BESS, hybrid projects, owner’s engineer services, construction support and lifecycle delivery in Australia.",
+    "h1": [
+      "Renewable energy engineering support across development, delivery and operations."
+    ],
+    "h2_count": 6,
+    "schema_blocks": 6,
+    "images": 2,
+    "internal_links": 18,
+    "issues": [
+      "Title length 70 (target 30-65)"
+    ],
+    "notes": []
+  },
+  {
+    "file": "services.html",
+    "url": "https://sequenceengineering.com.au/services",
+    "title": "Engineering Services | Sequence Engineering Australia",
+    "description": "Explore engineering services from Sequence Engineering Australia including renewable energy, BESS, grid connection, electrical design, high voltage, commissioning and owner’s engineer support.",
+    "h1": [
+      "Engineering services aligned to delivery, reliability and project certainty."
+    ],
+    "h2_count": 1,
+    "schema_blocks": 6,
+    "images": 2,
+    "internal_links": 20,
+    "issues": [
+      "Description length 192 (target 120-170)"
+    ],
+    "notes": []
+  },
+  {
+    "file": "terms.html",
+    "url": "https://sequenceengineering.com.au/terms",
+    "title": "Terms & Conditions | Sequence Engineering Australia",
+    "description": "Read the terms and conditions governing your use of the Sequence Engineering Australia website.",
+    "h1": [
+      "Terms & Conditions"
+    ],
+    "h2_count": 8,
+    "schema_blocks": 1,
+    "images": 0,
+    "internal_links": 2,
+    "issues": [
+      "Description length 95 (target 120-170)"
+    ],
+    "notes": []
+  }
+]

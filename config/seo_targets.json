@@ -1,0 +1,28 @@
+{
+  "company": "Sequence Engineering Australia",
+  "market": ["Australia", "Victoria", "Melbourne"],
+  "primary_topics": [
+    "renewable energy engineering Australia",
+    "BESS engineering consultant Australia",
+    "battery energy storage technical advisor",
+    "owner's engineer renewable energy",
+    "data centre electrical engineering Australia",
+    "grid connection engineering Australia",
+    "renewable energy commissioning",
+    "high voltage and power systems engineering"
+  ],
+  "page_targets": {
+    "index.html": ["renewable energy engineering Australia", "solar BESS hybrid project support"],
+    "renewable-energy.html": ["BESS engineering consultant Australia", "renewable energy owner’s engineer"],
+    "data-centres.html": ["data centre electrical engineering Australia", "mission-critical power systems"],
+    "services.html": ["renewable energy engineering services", "grid connection engineering Australia"],
+    "insights.html": ["renewable energy project delivery insights", "BESS procurement and commissioning"]
+  },
+  "aeo_questions": [
+    "What does Sequence Engineering specialise in?",
+    "What support is available for BESS and renewable energy projects?",
+    "How does an owner's engineer support a renewable energy project?",
+    "What does data centre electrical engineering cover?",
+    "How can commissioning and handover risk be reduced?"
+  ]
+}
