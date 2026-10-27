@@ -1,0 +1,54 @@
+name: SEO review-before-publish
+
+on:
+  workflow_dispatch:
+  schedule:
+    # GitHub cron wakes weekly; the guard runs only on even ISO weeks.
+    - cron: '15 22 * * 0'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check biweekly schedule
+        if: github.event_name == 'schedule'
+        run: |
+          WEEK=$(date -u +%V)
+          if [ $((10#$WEEK % 2)) -ne 0 ]; then
+            echo "Skipping odd ISO week $WEEK; review-before-publish runs every two weeks."
+            exit 0
+          fi
+          echo "Running safe optimizer for even ISO week $WEEK."
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Run safe optimizer
+        run: python3 scripts/seo_optimizer.py
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet; then echo "changed=false" >> "$GITHUB_OUTPUT"; else echo "changed=true" >> "$GITHUB_OUTPUT"; fi
+      - name: Create review branch and pull request
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BRANCH="seo/review-before-publish-${GITHUB_RUN_ID}"
+          git checkout -b "$BRANCH"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m 'Add safe SEO metadata improvements'
+          git push --set-upstream origin "$BRANCH"
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title 'Review: safe SEO metadata improvements' \
+            --body-file reports/optimizer-changes.md
+      - name: Report no-op
+        if: steps.changes.outputs.changed == 'false'
+        run: echo 'No safe changes were required; no pull request was created.'
