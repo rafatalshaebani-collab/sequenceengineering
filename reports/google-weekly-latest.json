@@ -1,0 +1,14 @@
+{
+  "mode": "dry-run",
+  "period": {
+    "start": "2026-10-19",
+    "end": "2026-10-25",
+    "previous_start": "2026-10-12",
+    "previous_end": "2026-10-18"
+  },
+  "required_secrets": [
+    "GOOGLE_SERVICE_ACCOUNT_JSON",
+    "GA4_PROPERTY_ID",
+    "GSC_SITE_URL"
+  ]
+}

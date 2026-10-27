@@ -1,0 +1,50 @@
+name: Google Analytics and Search Console weekly report
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Generate a structure-only report without Google credentials'
+        required: true
+        default: true
+        type: boolean
+  schedule:
+    - cron: '0 22 * * 0'
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Google API client
+        if: github.event_name == 'schedule' || inputs.dry_run == false
+        run: pip install --disable-pip-version-check google-auth requests
+      - name: Generate report
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+          GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then
+            python scripts/google_weekly_report.py --dry-run
+          else
+            python scripts/google_weekly_report.py
+          fi
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sequence-google-weekly-report
+          path: reports/google-weekly-latest.*
+      - name: Commit report files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/google-weekly-latest.md reports/google-weekly-latest.json
+          git diff --cached --quiet || git commit -m 'Update weekly Google report'
+          git push
