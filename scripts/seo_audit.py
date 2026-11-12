@@ -8,7 +8,7 @@ from urllib.parse import urlparse
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://sequenceengineering.com.au'
-PAGES=[p for p in ROOT.rglob('*.html') if '.git' not in p.parts and p.name not in {'404.html','500.html'}]
+PAGES=[p for p in ROOT.rglob('*.html') if '.git' not in p.parts and p.name not in {'404.html','500.html','google2ebe9de10628a8ae.html'}]
 
 class Parser(HTMLParser):
     def __init__(self):
@@ -34,8 +34,12 @@ class Parser(HTMLParser):
         text=' '.join(data.split())
         if not text: return
         if self._capture=='title': self.title += text
-        elif self._capture=='h1': self.h1.append(text)
-        elif self._capture=='h2': self.h2.append(text)
+        elif self._capture=='h1':
+            if self.h1: self.h1[-1] += ' ' + text
+            else: self.h1.append(text)
+        elif self._capture=='h2':
+            if self.h2: self.h2[-1] += ' ' + text
+            else: self.h2.append(text)
 
 def page_url(path):
     rel=path.relative_to(ROOT).as_posix()

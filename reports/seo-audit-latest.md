@@ -1,14 +1,14 @@
 # Sequence Engineering SEO / AEO / GEO Audit
 
-Generated: 2026-11-09
+Generated: 2026-11-12
 
 This is a review report. It does not change or publish site content.
 
 ## Summary
 
-- Pages checked: 16
-- Issues found: 20
-- Pages with no issues: 3
+- Pages checked: 15
+- Issues found: 0
+- Pages with no issues: 15
 
 ## Page checks
 
@@ -23,94 +23,84 @@ This is a review report. It does not change or publish site content.
 
 ### [contact.html](https://sequenceengineering.com.au/contact)
 
-- Title: `Contact Sequence Engineering Australia | Melbourne Engineering Consultancy`
+- Title: `Contact Sequence Engineering | Australia Engineering`
 - Description: `Contact Sequence Engineering Australia for renewable energy, BESS, data centre, grid connection and critical infrastructure project enquiries.`
 - H1 count: 1
 - JSON-LD blocks: 5
 - Images / internal links: 2 / 17
-- Issues: Title length 74 (target 30-65)
+- Status: baseline checks passed
 
 ### [data-centres.html](https://sequenceengineering.com.au/data-centres)
 
-- Title: `Data Centre Engineering Australia | Mission-Critical Infrastructure`
+- Title: `Data Centre Engineering | Sequence Engineering Australia`
 - Description: `Dedicated data centre engineering page covering critical infrastructure, UPS, standby power, electrical distribution, reliability, commissioning and interface management.`
 - H1 count: 1
 - JSON-LD blocks: 6
 - Images / internal links: 2 / 19
-- Issues: Title length 67 (target 30-65)
-
-### [google2ebe9de10628a8ae.html](https://sequenceengineering.com.au/google2ebe9de10628a8ae)
-
-- Title: `MISSING`
-- Description: `MISSING`
-- H1 count: 0
-- JSON-LD blocks: 0
-- Images / internal links: 0 / 0
-- Issues: Missing title; Missing meta description; Expected 1 H1, found 0; Missing canonical; Incomplete Open Graph metadata; No JSON-LD structured data found
-- Opportunities: Add more relevant internal links
+- Status: baseline checks passed
 
 ### [index.html](https://sequenceengineering.com.au/)
 
-- Title: `Sequence Engineering | Renewable Energy Advisory, Development & Delivery Support`
-- Description: `Sequence Engineering supports solar, BESS, and hybrid renewable energy projects from project inception and development through construction, commissioning, operations, and commerci`
-- H1 count: 2
+- Title: `Renewable Energy Advisory | Sequence Engineering`
+- Description: `Sequence Engineering supports solar, BESS and hybrid renewable energy projects from development through construction, commissioning and operations across Australia.`
+- H1 count: 1
 - JSON-LD blocks: 5
 - Images / internal links: 2 / 19
-- Issues: Title length 80 (target 30-65); Description length 196 (target 120-170); Expected 1 H1, found 2
+- Status: baseline checks passed
 
 ### [insights/bess-design-review-before-fid.html](https://sequenceengineering.com.au/insights/bess-design-review-before-fid)
 
-- Title: `BESS Design Review: What Owners Should Challenge Before FID | Sequence Engineering Australia`
+- Title: `BESS Design Review Before FID | Sequence Engineering`
 - Description: `The design assumptions worth challenging on a BESS project before financial investment decision, from an owner's technical perspective.`
 - H1 count: 1
 - JSON-LD blocks: 5
 - Images / internal links: 2 / 21
-- Issues: Title length 92 (target 30-65)
+- Status: baseline checks passed
 
 ### [insights/bess-procurement-technical-risks.html](https://sequenceengineering.com.au/insights/bess-procurement-technical-risks)
 
-- Title: `5 Technical Risks to Identify Before BESS Procurement | Sequence Engineering Australia`
+- Title: `BESS Procurement Technical Risks | Sequence Engineering`
 - Description: `Five technical risk areas worth resolving before a BESS project goes to procurement, from thermal design to protection coordination.`
 - H1 count: 1
 - JSON-LD blocks: 5
 - Images / internal links: 2 / 21
-- Issues: Title length 86 (target 30-65)
+- Status: baseline checks passed
 
 ### [insights/commissioning-ready-renewable-projects.html](https://sequenceengineering.com.au/insights/commissioning-ready-renewable-projects)
 
-- Title: `What Makes a Renewable Energy Project Commissioning-Ready? | Sequence Engineering Australia`
+- Title: `Renewable Project Commissioning Readiness | Sequence Engineering`
 - Description: `The practical markers of commissioning readiness on a renewable energy project, and why they need to be planned for well before energisation.`
 - H1 count: 1
 - JSON-LD blocks: 5
 - Images / internal links: 2 / 21
-- Issues: Title length 91 (target 30-65)
+- Status: baseline checks passed
 
 ### [insights/grid-connection-where-projects-lose-time.html](https://sequenceengineering.com.au/insights/grid-connection-where-projects-lose-time)
 
-- Title: `Grid Connection: Where Renewable Projects Commonly Lose Time | Sequence Engineering Australia`
+- Title: `Grid Connection Delays | Sequence Engineering`
 - Description: `The stages of the grid connection process where renewable energy projects most commonly lose time, and how to reduce that risk.`
 - H1 count: 1
 - JSON-LD blocks: 5
 - Images / internal links: 2 / 21
-- Issues: Title length 93 (target 30-65)
+- Status: baseline checks passed
 
 ### [insights/handover-readiness-review-90-day-plan.html](https://sequenceengineering.com.au/insights/handover-readiness-review-90-day-plan)
 
-- Title: `Handover Readiness Review: A 90-Day Plan for Renewable Energy Assets | Sequence Engineering Australia`
+- Title: `Handover Readiness Review | Sequence Engineering`
 - Description: `A practical three-week handover readiness review and 90-day plan for turning EPC documents, defects, warranties, alarms and maintenance data into operating control.`
 - H1 count: 1
 - JSON-LD blocks: 5
 - Images / internal links: 2 / 22
-- Issues: Title length 101 (target 30-65)
+- Status: baseline checks passed
 
 ### [insights/owner-side-handover-control.html](https://sequenceengineering.com.au/insights/owner-side-handover-control)
 
-- Title: `Owner-Side Handover Control: Protecting EPC Rights, Revenue and Compliance | Sequence Engineering Australia`
+- Title: `Owner-Side Handover Control | Sequence Engineering`
 - Description: `How renewable energy owners can turn an EPC handover into an operating control system, protecting defects rights, warranties, availability, compliance and revenue.`
 - H1 count: 1
 - JSON-LD blocks: 5
 - Images / internal links: 2 / 22
-- Issues: Title length 107 (target 30-65)
+- Status: baseline checks passed
 
 ### [insights.html](https://sequenceengineering.com.au/insights)
 
@@ -132,30 +122,30 @@ This is a review report. It does not change or publish site content.
 
 ### [renewable-energy.html](https://sequenceengineering.com.au/renewable-energy)
 
-- Title: `Renewable Energy Engineering Australia | Solar, BESS & Grid Connection`
+- Title: `Renewable Energy Engineering | Sequence Engineering`
 - Description: `Dedicated renewable energy engineering page for solar, BESS, hybrid projects, owner’s engineer services, construction support and lifecycle delivery in Australia.`
 - H1 count: 1
 - JSON-LD blocks: 6
 - Images / internal links: 2 / 18
-- Issues: Title length 70 (target 30-65)
+- Status: baseline checks passed
 
 ### [services.html](https://sequenceengineering.com.au/services)
 
 - Title: `Engineering Services | Sequence Engineering Australia`
-- Description: `Explore engineering services from Sequence Engineering Australia including renewable energy, BESS, grid connection, electrical design, high voltage, commissioning and owner’s engin`
+- Description: `Engineering services for renewable energy, BESS, grid connection, electrical design, high voltage, commissioning and owner’s engineer support across Australia.`
 - H1 count: 1
 - JSON-LD blocks: 6
 - Images / internal links: 2 / 20
-- Issues: Description length 192 (target 120-170)
+- Status: baseline checks passed
 
 ### [terms.html](https://sequenceengineering.com.au/terms)
 
 - Title: `Terms & Conditions | Sequence Engineering Australia`
-- Description: `Read the terms and conditions governing your use of the Sequence Engineering Australia website.`
+- Description: `Terms and conditions for using the Sequence Engineering Australia website, including permitted use, content, intellectual property and contact details.`
 - H1 count: 1
 - JSON-LD blocks: 1
 - Images / internal links: 0 / 2
-- Issues: Description length 95 (target 120-170)
+- Status: baseline checks passed
 
 ## AEO/GEO review queue
 
