@@ -1,6 +1,6 @@
 # Sequence Engineering SEO / AEO / GEO Audit
 
-Generated: 2026-11-12
+Generated: 2026-11-16
 
 This is a review report. It does not change or publish site content.
 
